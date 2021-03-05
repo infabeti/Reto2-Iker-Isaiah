@@ -1,5 +1,3 @@
-
-
 var http = require('http'), fs = require('fs');
 
 fs.readFile('./index.html', function (err, html) {
@@ -13,6 +11,10 @@ fs.readFile('./index.html', function (err, html) {
     }).listen(8080);
 });
 
-function registrarUsuario() {
-	
+function registro() {
+	window.open("registro.html");
+}
+
+function login() {
+	window.open("login.html");
 }
