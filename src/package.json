@@ -1,0 +1,41 @@
+{
+  "name": "reto2-iker-isaiah",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infabeti/Reto2-Iker-Isaiah.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infabeti/Reto2-Iker-Isaiah/issues"
+  },
+  "homepage": "https://github.com/infabeti/Reto2-Iker-Isaiah#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "json": "^10.0.0",
+    "require": "^2.4.20"
+  },
+  "keywords": [
+    "browser",
+    "require",
+    "commonjs",
+    "commonj-esque",
+    "bundle",
+    "npm",
+    "javascript"
+  ],
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
