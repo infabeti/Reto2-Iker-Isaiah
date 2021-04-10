@@ -1,5 +1,3 @@
-var arrayUsuariosRegistrados = new Array();
-
 function registro() {
 	window.open("registro.html");
 }

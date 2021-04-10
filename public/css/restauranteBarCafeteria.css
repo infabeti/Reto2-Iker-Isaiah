@@ -33,28 +33,33 @@ h1, h2, h3 {
 }
 
 
+
 .imagenes{
    margin-left: 135px;
 }
 
 
-tr, td {
+tr,td {
    width: -45%;
+   padding: 50px;
    text-align: left;
    vertical-align: top;
    border: 5px solid #021636;
    border-spacing: 0;
+   text-align: center;   
 }
 
 
-.logo {
-  padding-left: 30%;
-  width: 75px;
+.volver {
+  margin: 0px 0px 0px 400px;
+  width: 65px;
+  height: 65px;
+  border: 5px solid #9e0000;
 }
 
 
 .registro{
-  padding-left: 66%;
+  padding-left: 74%;
   margin: -65px 0px 0px 0px;
   font-family: Montserrat;
   color: #ffffff;
@@ -64,10 +69,10 @@ tr, td {
 
 
 .login{
-  padding-left: 66%;
+  padding-left: 74%;
   font-family: Montserrat;
   font-size: 20px;
   color: #ffffff;
-  font-weight: 600;
-   
+  font-weight: 600; 
 }
+

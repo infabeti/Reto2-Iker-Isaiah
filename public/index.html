@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>TITULO</title>
-	<link rel="stylesheet" href="../css/index.css">
-	<link rel="shortcut icon" href="#">
-	<script src="../js/principal.js"></script>
-	
-</head>
+    <head>
+    	<title>index</title>
+    	<link rel="stylesheet" href="css/index.css">
+    	<link rel="shortcut icon" href="#">
 
-<body>
-	<h1>mi titulo 1<h1>
-	<input type="button" value="Registro" href="javascript:;" onclick="registro()"></input>
-	<input type="button" value="Login" href='javascript:;' onclick="login()"></input>
+    	<script src="../bundle.js"></script>
 
-	<div class="cuerpo">
-        <div class="contenido">
-            <h1>Los mejores restaurantes, bares y tiendas de San Inazio</h1>
-            
-            <h2>¡Selecciona el local que quieras!</h2>
+    	<script src="../js/principal.js"></script>
+    	
 
-            <div>
-                <table class="imagenes">
-                    <tr>
-                        <td>
-                            <a href="restaurante.html" target="_blank">
-                                <img src="../imagenes/bar.jpg"></br>
-								<a>Bares</a>
-                            </a>
+    </head>
 
-                        <td>
-                            <img src = "../imagenes/restaurante.jpg"width="270" height="175"></br>
-								<a>Restaurantes</a>
-                        </td>
-
-                        <td>
-                            <img src = "../imagenes/tiendaChuches.jpg" width="270" height="175"></br>
-								<a>Tiendas de gominolas</a>
-                        </td>
-                       
-                    </tr>
+    <body background="Imagenes/gris.jpg">
+        <a href = "index.html">
+           <img class = "logo" src = "Imagenes/logo.png">
+        </a>
+        <a href = "registro.html">
+            <div class = "registro">
+                <h7>Registro:</h7>
+                <input type="button" value="Registro" href="javascript:;" onclick="registro()"></input>
             </div>
+        </a>
+        <br>
+        <a href = "login.html">
+            <div class = "login">
+                <h7>Login:</h7>
+                <input type="button" value="Login" href='javascript:;' onclick="login()"></input>
+            </div>
+        </a>
+        <br>
+        <br>
+    	<div class="cuerpo">
+            <div class="contenido">
+                <h1>Los mejores restaurantes, bares y tiendas de San Inazio<h1>
+                <br>
+                <h3>¡Selecciona el local que quieras!</h3>
+                <br>
+                <br>
+                    <table class="imagenes">
+                        <tr>
+                            <td>
+                                <a href="bar.html" target="_blank">
+                                    <img src = "Imagenes/bar.jpg"width="270" height="175"></br>
+                                    <h3>BAR</h3>
+                                </a>
 
+                            <td>
+                                <a href="restaurante.html" target="_blank">
+                                    <img src = "Imagenes/restaurante.jpg"width="270" height="175"></br>
+        							<h3>RESTAURANTE</h3>
+                                </a>
+                            </td>
 
-
-</body>
-
+                            <td>
+                                <a href="cafeteria.html" target="_blank">
+                                    <img src = "Imagenes/cafeteria.jpg" width="270" height="175"></br>
+        							<h3>CAFETERIA</h3>
+                                </a>
+                            </td>
+                           
+                        </tr>
+                    </table>    
+    </body>
 </html>
