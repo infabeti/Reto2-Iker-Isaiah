@@ -10,3 +10,4 @@ function registrarUsuario() {
 	const nuevoUsuario = new usuario();
 	const miUsuario = document.getElementById("usuario").valueOf;
 }
+
