@@ -18,6 +18,9 @@
   "homepage": "https://github.com/infabeti/Reto2-Iker-Isaiah#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jasmine": "^3.7.0",
+    "jsdom": "^16.5.3",
+    "sinon": "^10.0.0"
   }
 }

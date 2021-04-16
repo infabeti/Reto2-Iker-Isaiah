@@ -1,13 +1,16 @@
-function registro() {
-	window.open("registro.html");
-}
-
-function login() {
-	window.open("login.html");
-}
+var usuariosRegistrados = [];
+var contrasenyaUsuariosRegistrados = [];
+var utiles = require("./utiles.js");
 
 function registrarUsuario() {
-	const nuevoUsuario = new usuario();
-	const miUsuario = document.getElementById("usuario").valueOf;
+	utiles.miPush(usuariosRegistrados, document.getElementById("usuario"));
+	utiles.miPush(usuariosRegistrados, document.getElementById("contrasenya"));
 }
 
+function b(){
+}
+
+module.exports = {
+	registrarUsuario:registrarUsuario,
+	b:b
+};
