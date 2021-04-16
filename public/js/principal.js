@@ -1,4 +1,4 @@
-//BASE DE DATOS
+//BASE DE DATOS BAR
 	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
 	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
 	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
@@ -8,8 +8,30 @@
 	var IVA = 0.21;
 	var uniUser;
 	
-	
-	
+
+//BASE DE RESTAURANTE
+	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
+	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
+	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
+	var precios = [2.20, 1, 1.20, 2.90, 1.50, 5.20, 1.80, 1.80, 2];
+	var stock = [80, 50, 20, 80, 100, 45, 200, 200, 50];
+	var precioTransporte = [6, 12, 20, "gratis"];
+	var IVA = 0.21;
+	var uniUser;
+
+
+//BASE DE CAFETERÍA
+	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
+	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
+	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
+	var precios = [2.20, 1, 1.20, 2.90, 1.50, 5.20, 1.80, 1.80, 2];
+	var stock = [80, 50, 20, 80, 100, 45, 200, 200, 50];
+	var precioTransporte = [6, 12, 20, "gratis"];
+	var IVA = 0.21;
+	var uniUser;
+
+
+
 //JAVASCRIPT A EJECUTARSE UNA VEZ CARGADA LA PAGINA:	
 	window.onload = function(){
 
