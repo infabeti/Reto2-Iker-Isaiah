@@ -9,34 +9,11 @@
 	var uniUser;
 	
 
-//BASE DE RESTAURANTE
-	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
-	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
-	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
-	var precios = [2.20, 1, 1.20, 2.90, 1.50, 5.20, 1.80, 1.80, 2];
-	var stock = [80, 50, 20, 80, 100, 45, 200, 200, 50];
-	var precioTransporte = [6, 12, 20, "gratis"];
-	var IVA = 0.21;
-	var uniUser;
-
-
-//BASE DE CAFETERÍA
-	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
-	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
-	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
-	var precios = [2.20, 1, 1.20, 2.90, 1.50, 5.20, 1.80, 1.80, 2];
-	var stock = [80, 50, 20, 80, 100, 45, 200, 200, 50];
-	var precioTransporte = [6, 12, 20, "gratis"];
-	var IVA = 0.21;
-	var uniUser;
-
-
-
 //JAVASCRIPT A EJECUTARSE UNA VEZ CARGADA LA PAGINA:	
 	window.onload = function(){
 
 	
-		//Se cargan los productos dentro del HTML de forna dinamica haciendo uso de los datos de la base de datos, como si de un PHP se tratase:
+		//Se cargan los productos dentro del HTML de forna dinamica haciendo uso de los datos de la base de datos:
 		var DIVS = document.getElementsByName("DIVS");
 		for (i in productos){
 			DIVS[i].innerHTML = '<a id="imgG'+i+'" href="' +imgGrandes[i]+ '"><img id="imgP'+i+'" class="imagen" src="' +imgPeque[i]+ '"></a><div class="etiquetas"><b><span id="pro'+i+'">' +productos[i]+ '</span>:&nbsp;<span id="pre'+i+'">' +precios[i]+ '€</span></b></div><div class="stock">Hay en stock <span id="uni'+i+'">' +stock[i]+ '</span> unidades,<br/>¿Cuantas quiere?: <input class="uniBien" type="number" id="uniUser'+i+'" name="uniUser" value="0" size="4" /></div>';
@@ -44,7 +21,6 @@
 	
 	
 		//Rellena el campo dia y año, de la fecha de nacimiento y tarjeta de credito:
-		//Mas info en: http://www.tallerwebmaster.com/tutorial/mostrar-fecha-actual-con-javascrip/58/
 		//Fecha de nacimiento
 		var fecha = new Date();
 		var anio = fecha.getFullYear();
@@ -66,8 +42,7 @@
 			document.getElementById("anioTarjeta").innerHTML = document.getElementById("anioTarjeta").innerHTML + '<option value="' +i+ '">' +i+ '</option>';
 		}
 
-		
-	
+			
 		//Botones que llevaran a cabo la ejecucion de determinadas secuencias de codigo JavaScript:
 		document.getElementById("botonTotal").onclick = validaLasUnidades;
 		document.getElementById("botonDatos").onclick = pideDatos;
@@ -75,10 +50,9 @@
 		document.getElementById("botonConfirmar").onclick = validaDatosPago;
 	}
 
-	
-	
-	
+			
 	/*-------------------COMIENZAN LAS FUNCIONES-------------------*/
+
 
 // LOGIN
 function registro() {
@@ -140,7 +114,7 @@ function registrarUsuario() {
 	
 
 	
-//FUNCION QUE MUSTRA EL CARRO DE LA COMPRA:
+//FUNCION QUE MUESTRA EL CARRO DE LA COMPRA:
 	function calculaElTotal(elEvento) {
 
 	
@@ -511,7 +485,6 @@ function registrarUsuario() {
 	}
 
 	
-
 
 //FUNCION DE VALIDAR DATOS PAGO y ENVIAR DATOS
 	function validaDatosPagoYEnviaCarro(elEvento) {
