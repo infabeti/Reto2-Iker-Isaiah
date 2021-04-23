@@ -3,8 +3,8 @@ var contrasenyaUsuariosRegistrados = [];
 var utiles = require("./utiles.js");
 
 function registrarUsuario() {
-	utiles.miPush(usuariosRegistrados, document.getElementById("usuario"));
-	utiles.miPush(usuariosRegistrados, document.getElementById("contrasenya"));
+	utiles.miPush(usuariosRegistrados, document.getElementById("usuario").value);
+	utiles.miPush(usuariosRegistrados, document.getElementById("contrasenya").value);
 }
 
 function b(){
