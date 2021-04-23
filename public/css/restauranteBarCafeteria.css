@@ -66,7 +66,7 @@ h1, h2, h3, h4 {
 
 .cancelar {
   padding-left: center;
-  margin: 0px 0px 0px 0px;
+  margin: 25px 0px 0px 0px;
 }
 
 
@@ -92,7 +92,7 @@ h1, h2, h3, h4 {
   }
 
   div.etiquetas {
-    color:black;
+    color:#6670b3;
     text-align:center;
     width:222px;
     height:22px;
@@ -122,9 +122,10 @@ h1, h2, h3, h4 {
     margin-right:auto;
     display:block;
     width:1000px;
-    background: #000 url("../Imagenes/otros/gris.jpg") no-repeat;
+    background: #000 url("../Imagenes/otros/gris.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
-  div.todoNo{height:805px;}
+  div.todoNo{height:1300px; width:1000px;}
   div.todoSi{height:1070px;}
 
 
@@ -134,11 +135,14 @@ h1, h2, h3, h4 {
     left:143px;
     width:715px;
 }
-  div.menuNo{height:775px;}
-  div.menuSi{height:1040px;}
+  div.menuNo{height:1463px;}
+  div.menuSi{height:1440px;}
 
 
 /*Divs para colocar cada producto en su sitio*/
+
+/* BEBIDAS */
+
   #div1{
     position:absolute;
     top:38px;
@@ -187,9 +191,12 @@ h1, h2, h3, h4 {
     height:217px;
   }
 
+  /* ESPACIO */
+  /* COMIDAS */
+
   #div7{
     position:absolute;
-    top:504px;
+    top:534px;
     left:12px;
     width:221px;
     height:217px;
@@ -197,7 +204,7 @@ h1, h2, h3, h4 {
 
   #div8{
     position:absolute;
-    top:504px;
+    top:534px;
     left:246px;
     width:221px;
     height:217px;
@@ -205,18 +212,70 @@ h1, h2, h3, h4 {
 
   #div9{
     position:absolute;
-    top:504px;
+    top:534px;
     left:480px;
     width:221px;
     height:217px;
   }
 
+  #div10{
+    position:absolute;
+    top:767px;
+    left:12px;
+    width:221px;
+    height:217px;
+  }
+
+  #div11{
+    position:absolute;
+    top:767px;
+    left:246px;
+    width:221px;
+    height:217px;
+  }
+
+  #div12{
+    position:absolute;
+    top:767px;
+    left:480px;
+    width:221px;
+    height:217px;
+  }
+
+
+  /* ESPACIO */
+  /* OTROS */
+
+  #div13{
+    position:absolute;
+    top:1030px;
+    left:12px;
+    width:221px;
+    height:217px;
+  }
+
+  #div14{
+    position:absolute;
+    top:1030px;
+    left:246px;
+    width:221px;
+    height:217px;
+  }
+
+  #div15{
+    position:absolute;
+    top:1030px;
+    left:480px;
+    width:221px;
+    height:217px;
+  }
   
+
 /*CSS DEL CARRITO DE LA COMPRA*/
   /*Div para los botones*/
   #divbotones{
     position:relative;
-    top:742px;
+    top:1330px;
     left:179px;
     width:440px;
     height:23px;
@@ -253,7 +312,7 @@ h1, h2, h3, h4 {
   /*Divs para la zona de compras*/
   div.divZonaCompraSi{
     position:relative;
-    top:742px;
+    top:130px;
     padding:0px 11px 20px 11px;
     display:yes;
     width:693px;
@@ -262,7 +321,7 @@ h1, h2, h3, h4 {
   }
   div.divZonaCompraNo{
     position:relative;
-    top:742px;
+    top:1330px;
     padding:0px 11px 20px 11px;
     display:none;
     width:693px;

@@ -1,9 +1,9 @@
 //BASE DE DATOS BAR
-	var productos = ["COCA COLA", "BOTELLÍN DE AGUA", "MOSTO BLANCO", "FRANZISKANER", "CRIANZA", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXISTORRA", "ACEITUNAS"];
-	var imgGrandes = ["Imagenes/productos/cocaCola.jpg", "Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/franziskaner.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/aceitunas.jpg"];
-	var imgPeque = ["Imagenes/productos/cocaColam.jpg","Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/franziskanerm.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/aceitunasm.jpg"];
-	var precios = [2.20, 1, 1.20, 2.90, 1.50, 5.20, 1.80, 1.80, 2];
-	var stock = [80, 50, 20, 80, 100, 45, 200, 200, 50];
+	var productos = ["BOTELLÍN DE AGUA", "KAS NARANJA", "COCACOLA", "MOSTO BLANCO", "CRIANZA", "VERDEJO", "KALIMOTXO", "DESTORNILLADOR", "GIN TONIC", "PINTXO DE JAMON", "PINTXO DE TXITORRA", "PINTXO DE BONITO", "ACEITUNAS", "PATATAS FRITAS", "RABAS"];
+	var imgGrandes = ["Imagenes/productos/botellaAgua.jpg", "Imagenes/productos/kasNaranja.jpg", "Imagenes/productos/cocaCola.jpg", "Imagenes/productos/mostoBlanco.jpg", "Imagenes/productos/CarrizalCrianza.jpg", "Imagenes/productos/penalosaVerdejo.jpg", "Imagenes/productos/kalimotxo.jpg", "Imagenes/productos/destornillador.jpg", "Imagenes/productos/ginTonic.jpg", "Imagenes/productos/jamon.jpg", "Imagenes/productos/txistorraQueso.jpg", "Imagenes/productos/bonito.jpg", "Imagenes/productos/aceitunas.jpg", "Imagenes/productos/patatas.jpg", "Imagenes/productos/rabas.jpg"];
+	var imgPeque = ["Imagenes/productos/botellaAguam.jpg", "Imagenes/productos/kasNaranjam.jpg", "Imagenes/productos/cocaColam.jpg", "Imagenes/productos/mostoBlancom.jpg", "Imagenes/productos/CarrizalCrianzam.jpg", "Imagenes/productos/penalosaVerdejom.jpg", "Imagenes/productos/kalimotxom.jpg", "Imagenes/productos/destornilladorm.jpg", "Imagenes/productos/ginTonicm.jpg", "Imagenes/productos/jamonm.jpg", "Imagenes/productos/txistorraQuesom.jpg", "Imagenes/productos/bonitom.jpg", "Imagenes/productos/aceitunasm.jpg", "Imagenes/productos/patatasm.jpg", "Imagenes/productos/rabasm.jpg"];
+	var precios = [1, 2.20, 2.20, 1.20, 1.50, 1.50, 3.90, 5.80, 5.80,1.5,1.5,1.5,2,2.50,5];
+	var stock = [20, 15, 30, 15, 50, 45, 30, 20, 30,50,50,30,30,30,15];
 	var precioTransporte = [6, 12, 20, "gratis"];
 	var IVA = 0.21;
 	var uniUser;
