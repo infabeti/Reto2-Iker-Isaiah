@@ -29,6 +29,7 @@ h1, h2, h3, h4 {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 
@@ -66,7 +67,8 @@ h1, h2, h3, h4 {
 
 .cancelar {
   padding-left: center;
-  margin: 25px 0px 0px 0px;
+  margin: 250px 0px 0px 500px;
+  position: absolute;
 }
 
 
@@ -312,7 +314,7 @@ h1, h2, h3, h4 {
   /*Divs para la zona de compras*/
   div.divZonaCompraSi{
     position:relative;
-    top:130px;
+    top:1330px;
     padding:0px 11px 20px 11px;
     display:yes;
     width:693px;
